@@ -1,0 +1,46 @@
+.social-container {
+	max-width: 425px;
+
+	.active {
+		border-bottom: 2px solid white;
+	}
+
+	.user-wrapper {
+		height: 700px;
+
+		.user-box {
+			border: 1px solid white;
+
+			.animation {
+				transition: 0.5s;
+
+				&:hover {
+					color: #fff;
+					text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+				}
+			}
+
+			.reject:hover {
+				color: red;
+				text-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red;
+			}
+
+			.accept:hover {
+				color: green;
+				text-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green;
+			}
+		}
+	}
+
+	.incoming {
+		height: 311px;
+	}
+
+	.outgoing {
+		height: 365px;
+	}
+
+	.game {
+		height: 338px;
+	}
+}
